@@ -66,6 +66,7 @@ Make sure you have **Node.js** installed on your system.
    
    ```bash
    const chess = new Chess();
+
 3. **Rendering the Chessboard:** The chessboard is dynamically rendered using JavaScript, iterating over the board array and creating HTML elements for each square and piece.
    
 4. **Drag-and-Drop Functionality:** Players can drag and drop pieces, with event listeners handling the interactions:
