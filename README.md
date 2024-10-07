@@ -36,20 +36,22 @@ Make sure you have **Node.js** installed on your system.
    
    ```bash
    git clone https://github.com/yourusername/checkmate.git
-3. Navigate to the project directory:
+2. Navigate to the project directory:
    
    ```bash
    cd checkmate
-5. Install the required dependencies:
+3. Install the required dependencies:
    
    ```bash
    npm install
 
  ### Running the Application
 1. Start the server:
+   
    ```bash
    node app.js
-2. Open your browser and navigate to:
+3. Open your browser and navigate to:
+   
    ```bash
    http://localhost:3000
 
@@ -57,15 +59,19 @@ Make sure you have **Node.js** installed on your system.
 
 ### Frontend Overview
 1. **Socket.io Initialization:** Establish a WebSocket connection to the server using:
+   
    ```bash
    const socket = io();
 2. **Chess Game Initialization:** Create a new chess game instance:
+   
    ```bash
    const chess = new Chess();
 3. **Rendering the Chessboard:** The chessboard is dynamically rendered using JavaScript, iterating over the board array and creating HTML elements for each square and piece.
+   
 4. **Drag-and-Drop Functionality:** Players can drag and drop pieces, with event listeners handling the interactions:
 	- Dragging is allowed only if it’s the player’s turn.
 	- Upon dropping, the move is sent to the server for validation.
+
 5. **Socket Events:** Real-time communication ensures the game state is always in sync:
 	- Players receive their role (white, black, or spectator).
 	- Moves are validated by the server and broadcast to all connected clients.
