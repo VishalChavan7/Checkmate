@@ -33,12 +33,15 @@ Make sure you have **Node.js** installed on your system.
 
 ### Installation
 1. Clone the repository:
+   
    ```bash
    git clone https://github.com/yourusername/checkmate.git
-2. Navigate to the project directory:
+3. Navigate to the project directory:
+   
    ```bash
    cd checkmate
-3. Install the required dependencies:
+5. Install the required dependencies:
+   
    ```bash
    npm install
 
