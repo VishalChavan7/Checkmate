@@ -31,19 +31,22 @@ Here’s the complete README file formatted for direct copy-pasting:
    ```bash
    git clone https://github.com/your-username/checkmate.git
 
-2.	Navigate into the project directory:
-   ```bash
-   cd checkmate
+	2.	Navigate into the project directory:
 
-3.	Install dependencies:
-   ```bash
-   npm install
+cd checkmate
 
-4.	Start the server:
-   ```bash
-   node app.js
 
-5.	Open your browser and navigate to http://localhost:3000 to start playing.
+	3.	Install dependencies:
+
+npm install
+
+
+	4.	Start the server:
+
+node app.js
+
+
+	5.	Open your browser and navigate to http://localhost:3000 to start playing.
 
 How It Works
 
