@@ -1,4 +1,4 @@
-# Checkmate - Real-Time Multiplayer Chess Game
+# Checkmate - A Real-Time Multiplayer Chess Game
 
 Checkmate is a real-time multiplayer chess game built using **Socket.io** and **Chess.js**, providing an engaging online chess experience similar to chess.com. The game supports two players: one playing as white and the other as black, with additional spectators allowed to observe the game.
 
