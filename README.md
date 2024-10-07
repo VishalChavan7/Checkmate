@@ -70,12 +70,12 @@ Make sure you have **Node.js** installed on your system.
 3. **Rendering the Chessboard:** The chessboard is dynamically rendered using JavaScript, iterating over the board array and creating HTML elements for each square and piece.
    
 4. **Drag-and-Drop Functionality:** Players can drag and drop pieces, with event listeners handling the interactions:
-	- Dragging is allowed only if it’s the player’s turn.
-	- Upon dropping, the move is sent to the server for validation.
+ - Dragging is allowed only if it’s the player’s turn.
+ - Upon dropping, the move is sent to the server for validation.
 
 5. **Socket Events:** Real-time communication ensures the game state is always in sync:
-	- Players receive their role (white, black, or spectator).
-	- Moves are validated by the server and broadcast to all connected clients.
+ - Players receive their role (white, black, or spectator).
+ - Moves are validated by the server and broadcast to all connected clients.
 
 ### Backend Overview
 1. **Server Setup:** Express serves the frontend and initializes Socket.io for WebSocket communication.
